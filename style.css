@@ -39,7 +39,7 @@ color: #ffffff;
 }
 
 .logo::first-letter {
-color: #38bdf8;
+color: #ff0202;
 }
 
 nav ul {
@@ -83,6 +83,10 @@ border-radius: 10px;
 }
 
 /* Home */
+.home h1::first-letter {
+color: #ff0202;
+}
+
 .home {
 min-height: 90vh;
 display: flex;
@@ -274,7 +278,7 @@ border-top: 1px solid rgba(255, 255, 255, 0.08);
 /* Mobile Responsive */
 @media (max-width: 768px) {
 
-```
+
 nav {
     flex-direction: column;
     gap: 15px;
@@ -307,6 +311,5 @@ section h2 {
     width: 100%;
     max-width: 350px;
 }
-```
 
 }
