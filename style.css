@@ -14,6 +14,7 @@ body {
     font-family: 'Poppins', sans-serif;
     background: #0f172a;
     color: #f8fafc;
+    overflow-x: hidden;
 }
 
 /* Navigation */
@@ -355,6 +356,7 @@ section h2::after {
 .contact-card a {
     color: #cbd5e1;
     text-decoration: none;
+    overflow-wrap: anywhere;
 }
 
 .contact-card a:hover {
@@ -370,78 +372,313 @@ footer {
     background: #020617;
 }
 
-/* Mobile Responsive */
+
+/* =========================
+   TABLET RESPONSIVE
+========================= */
+
+@media (max-width: 900px) {
+
+    nav {
+        padding: 18px 5%;
+    }
+
+    section {
+        padding: 80px 6%;
+    }
+
+    .home {
+        gap: 35px;
+    }
+
+    .home h1 {
+        font-size: 55px;
+    }
+
+    .home-photo {
+        flex: 0 0 300px;
+    }
+
+    .photo-ring {
+        width: 280px;
+        height: 280px;
+    }
+
+    .photo-ring::before {
+        width: 305px;
+        height: 305px;
+    }
+
+    .photo-ring::after {
+        width: 325px;
+        height: 325px;
+    }
+}
+
+
+/* =========================
+   MOBILE RESPONSIVE
+========================= */
 
 @media (max-width: 768px) {
 
+    /* Navigation */
+
     nav {
         flex-direction: column;
-        gap: 15px;
-        padding: 15px;
+        gap: 12px;
+        padding: 14px 10px;
+    }
+
+    .logo {
+        font-size: 25px;
     }
 
     nav ul {
-        gap: 14px;
+        width: 100%;
+        gap: 10px 16px;
         flex-wrap: wrap;
         justify-content: center;
     }
 
-    section {
-        padding: 75px 7%;
+    nav ul li a {
+        font-size: 13px;
     }
+
+
+    /* Sections */
+
+    section {
+        padding: 70px 6%;
+    }
+
+    section h2 {
+        font-size: 31px;
+        margin-bottom: 35px;
+    }
+
+
+    /* Home */
 
     .home {
         min-height: auto;
         flex-direction: column-reverse;
         justify-content: center;
-        gap: 50px;
+        gap: 45px;
         text-align: center;
-        padding-top: 70px;
+        padding-top: 60px;
+        padding-bottom: 80px;
     }
 
     .home-content {
+        width: 100%;
         max-width: 100%;
     }
 
+    .hello {
+        font-size: 17px;
+    }
+
     .home h1 {
-        font-size: 48px;
+        font-size: 46px;
+        line-height: 1.1;
     }
 
     .home h2 {
-        font-size: 23px;
+        font-size: 22px;
+        margin-bottom: 15px;
     }
 
-    section h2 {
-        font-size: 32px;
+    .home-description {
+        max-width: 100%;
+        font-size: 15px;
+        line-height: 1.7;
+        margin-bottom: 25px;
     }
 
-    .home-buttons {
-        flex-wrap: wrap;
-        justify-content: center;
-    }
 
     /* Mobile Photo */
 
     .home-photo {
         flex: none;
+        width: 100%;
     }
 
     .photo-ring {
-        width: 250px;
-        height: 250px;
+        width: 245px;
+        height: 245px;
     }
 
     .photo-ring::before {
-        width: 275px;
-        height: 275px;
+        width: 270px;
+        height: 270px;
     }
 
     .photo-ring::after {
-        width: 295px;
-        height: 295px;
+        width: 290px;
+        height: 290px;
     }
 
-    .education-card {
+
+    /* Buttons */
+
+    .home-buttons {
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 12px;
+    }
+
+    .btn {
+        padding: 12px 22px;
+        font-size: 14px;
+    }
+
+
+    /* About */
+
+    .about-content > p {
+        font-size: 15px;
+        line-height: 1.8;
+    }
+
+    .about-info {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        margin-top: 30px;
+    }
+
+    .info-card {
+        width: 100%;
+        max-width: 340px;
+        padding: 22px;
+    }
+
+
+    /* Skills */
+
+    .skills-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 18px;
+    }
+
+    .skill {
+        width: 100%;
+        max-width: 340px;
         padding: 25px;
     }
+
+
+    /* Education */
+
+    .education-card {
+        width: 100%;
+        padding: 25px 20px;
+    }
+
+    .education-card h3 {
+        font-size: 19px;
+        line-height: 1.5;
+    }
+
+    .college-name {
+        font-size: 15px;
+    }
+
+    .education-details {
+        font-size: 14px;
+        line-height: 1.8;
+    }
+
+
+    /* Contact */
+
+    .contact-text {
+        font-size: 14px;
+        line-height: 1.7;
+    }
+
+    .contact-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 18px;
+    }
+
+    .contact-card {
+        width: 100%;
+        max-width: 340px;
+        padding: 25px 18px;
+    }
+
+    .contact-card a {
+        font-size: 14px;
+        word-break: break-word;
+    }
+
+
+    /* Footer */
+
+    footer {
+        padding: 20px 10px;
+    }
+
+    footer p {
+        font-size: 12px;
+        line-height: 1.6;
+    }
 }
+
+
+/* =========================
+   SMALL MOBILE
+========================= */
+
+@media (max-width: 380px) {
+
+    nav ul {
+        gap: 8px 11px;
+    }
+
+    nav ul li a {
+        font-size: 12px;
+    }
+
+    section {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .home h1 {
+        font-size: 40px;
+    }
+
+    .home h2 {
+        font-size: 20px;
+    }
+
+    .home-description {
+        font-size: 14px;
+    }
+
+    .photo-ring {
+        width: 215px;
+        height: 215px;
+    }
+
+    .photo-ring::before {
+        width: 240px;
+        height: 240px;
+    }
+
+    .photo-ring::after {
+        width: 260px;
+        height: 260px;
+    }
+
+    .btn {
+        width: 100%;
+        max-width: 230px;
+    }
+}
+
