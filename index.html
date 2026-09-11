@@ -1,103 +1,194 @@
 <!DOCTYPE html>
-
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vikas | Portfolio</title>
+
+    <title>Vikas HM | Portfolio</title>
+
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-<!-- Navigation -->
+
+    <!-- Navigation -->
 <nav>
-    <h2 class="logo">Vikas HM</h2>
+    <a href="#home" class="logo">Vikas</a>
 
-    <ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
-    </ul>
-</nav>
 
-<!-- Home -->
-<section id="home" class="home">
-    <div>
-        <h1>Hi, I'm <span>Vikas</span></h1>
-        <h3>Web Developer</h3>
-        <p>I am passionate about Web Development and creating simple websites.</p>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
 
-        <button onclick="showMessage()">Hire Me</button>
-    </div>
-</section>
 
-<!-- About -->
-<section id="about">
-    <h2>About Me</h2>
-    <p>
-        I am a student and aspiring Web Developer.
-        I enjoy learning HTML, CSS, JavaScript and React.
-        I like creating simple and attractive websites.
-    </p>
-</section>
+    <!-- Home -->
+    <section id="home" class="home">
 
-<!-- Skills -->
-<section id="skills">
-    <h2>My Skills</h2>
+    <div class="home-content">
 
-    <div class="skills-container">
-        <div class="skill">HTML</div>
-        <div class="skill">CSS</div>
-        <div class="skill">Video Editing</div>
-        <div class="skill">Photo Editing</div>
-    </div>
-</section>
+        <p class="hello">Hello, I'm</p>
 
-<!-- Projects -->
-<section id="projects">
-    <h2>My Projects</h2>
+        <h1>Vikas HM</h1>
 
-    <div class="projects-container">
+        <h2>CSE Student</h2>
 
-        <div class="project-card">
-            <h3>Text Converter</h3>
-            <p>A website to convert text into uppercase and lowercase.</p>
-        </div>
+        <p class="home-description">
+            A Computer Science and Engineering student interested in
+            Web Development and Editing.
+        </p>
 
-        <div class="project-card">
-            <h3>Calculator</h3>
-            <p>A simple calculator created using HTML, CSS and JavaScript.</p>
-        </div>
-
-        <div class="project-card">
-            <h3>Portfolio Website</h3>
-            <p>My personal portfolio website to showcase my skills and projects.</p>
+        <div class="home-buttons">
+            <a href="#about" class="btn primary-btn">About Me</a>
+            <a href="#contact" class="btn secondary-btn">Contact Me</a>
         </div>
 
     </div>
+
+    <div class="home-photo">
+        <div class="photo-ring">
+            <img src="vikas.jpg" alt="Vikas HM">
+        </div>
+    </div>
+
 </section>
 
-<!-- Contact -->
-<section id="contact">
-    <h2>Contact Me</h2>
 
-    <form id="contactForm">
-        <input type="text" id="name" placeholder="Enter your name" required>
-        <input type="email" id="email" placeholder="Enter your email" required>
-        <textarea id="message" placeholder="Enter your message" required></textarea>
+    <!-- About -->
+    <section id="about">
 
-        <button type="submit">Send Message</button>
-    </form>
-</section>
+        <h2>About Me</h2>
 
-<!-- Footer -->
-<footer>
-    <p>© 2026 Vikas | All Rights Reserved</p>
-</footer>
+        <div class="about-content">
 
-<script src="script.js"></script>
-```
+            <p>
+                Hi, I'm Vikas HM, a Computer Science and Engineering student
+                at SDM Polytechnic, Ujire.
+            </p>
+
+            <p>
+                I am interested in Web Development and Editing. I enjoy learning
+                new skills and creating simple, clean and attractive websites.
+            </p>
+
+            <div class="about-info">
+
+                <div class="info-card">
+                    <h3>Location</h3>
+                    <p>Halebeedu, Karnataka</p>
+                </div>
+
+                <div class="info-card">
+                    <h3>College</h3>
+                    <p>SDM Polytechnic, Ujire</p>
+                </div>
+
+                <div class="info-card">
+                    <h3>Course</h3>
+                    <p>Computer Science & Engineering</p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Skills -->
+    <section id="skills">
+
+        <h2>My Skills</h2>
+
+        <div class="skills-container">
+
+            <div class="skill">
+                <h3>HTML</h3>
+                <p>Building webpage structure</p>
+            </div>
+
+            <div class="skill">
+                <h3>CSS</h3>
+                <p>Creating clean and responsive designs</p>
+            </div>
+
+            <div class="skill">
+                <h3>Editing</h3>
+                <p>Creative content editing</p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Education -->
+    <section id="education">
+
+        <h2>Education</h2>
+
+        <div class="education-card">
+
+            <h3>Diploma in Computer Science & Engineering</h3>
+
+            <p class="college-name">
+                SDM Polytechnic, Ujire
+            </p>
+
+            <div class="education-details">
+                <p><strong>Current:</strong> 3rd Year, 5th Semester</p>
+                <p><strong>Graduation Year:</strong> 2027</p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Contact -->
+    <section id="contact">
+
+        <h2>Contact Me</h2>
+
+        <p class="contact-text">
+            Feel free to contact me for any queries or opportunities.
+        </p>
+
+        <div class="contact-container">
+
+            <div class="contact-card">
+
+                <h3>Email</h3>
+
+                <a href="mailto:vikas.halebeedu@gmail.com">
+                    vikas.halebeedu@gmail.com
+                </a>
+
+            </div>
+
+            <div class="contact-card">
+                <h3>GitHub</h3>
+                <a href="https://github.com/vikashalebeedu-source" target="_blank">
+                    github.com/vikashalebeedu-source
+                </a>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 Vikas HM. All Rights Reserved.</p>
+    </footer>
+
+
+    <script src="script.js"></script>
 
 </body>
 </html>
