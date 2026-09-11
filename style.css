@@ -123,6 +123,10 @@ section h2::after {
     margin-bottom: 20px;
 }
 
+.home h2::after {
+    content: none;
+}
+
 .home-description {
     max-width: 600px;
     color: #94a3b8;
