@@ -35,6 +35,6 @@ I created this portfolio website to introduce myself, showcase my technical skil
 
 👨‍💻 Author
 
-Vikash Halebeedu
+Vikas Halebeedu
 
 GitHub: "@vikashalebeedu-source" (https://github.com/vikashalebeedu-source)
