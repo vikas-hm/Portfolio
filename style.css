@@ -82,11 +82,16 @@ section h2 {
 
 section h2::after {
     content: "";
+
     display: block;
+
     width: 60px;
     height: 4px;
+
     background: #38bdf8;
+
     margin: 12px auto;
+
     border-radius: 10px;
 }
 
@@ -97,6 +102,7 @@ section h2::after {
     min-height: 90vh;
 
     display: flex;
+
     align-items: center;
     justify-content: space-between;
 
@@ -112,13 +118,17 @@ section h2::after {
 
 .hello {
     color: #38bdf8;
+
     font-size: 20px;
+
     margin-bottom: 10px;
 }
 
 .home h1 {
     font-family: 'Space Grotesk', sans-serif;
+
     font-size: 68px;
+
     margin-bottom: 15px;
 }
 
@@ -128,8 +138,11 @@ section h2::after {
 
 .home h2 {
     font-size: 28px;
+
     font-weight: 500;
+
     color: #cbd5e1;
+
     margin-bottom: 10px;
 }
 
@@ -139,21 +152,29 @@ section h2::after {
 
 .home-role {
     color: #38bdf8;
+
     font-size: 20px;
+
     font-weight: 600;
+
     margin-bottom: 20px;
 }
 
 .home-role span {
     color: #64748b;
+
     margin: 0 6px;
 }
 
 .home-description {
     max-width: 600px;
+
     color: #94a3b8;
+
     font-size: 17px;
+
     line-height: 1.8;
+
     margin-bottom: 30px;
 }
 
@@ -164,7 +185,9 @@ section h2::after {
     flex: 0 0 380px;
 
     display: flex;
+
     justify-content: center;
+
     align-items: center;
 }
 
@@ -175,12 +198,15 @@ section h2::after {
     padding: 7px;
 
     border: 3px solid #38bdf8;
+
     border-radius: 50%;
 
     position: relative;
 
     display: flex;
+
     justify-content: center;
+
     align-items: center;
 
     box-shadow:
@@ -197,6 +223,7 @@ section h2::after {
     height: 365px;
 
     border: 1px solid rgba(56, 189, 248, 0.35);
+
     border-radius: 50%;
 }
 
@@ -209,6 +236,7 @@ section h2::after {
     height: 385px;
 
     border: 1px dashed rgba(56, 189, 248, 0.20);
+
     border-radius: 50%;
 }
 
@@ -217,12 +245,15 @@ section h2::after {
     height: 100%;
 
     object-fit: cover;
+
     object-position: center top;
 
     border-radius: 50%;
+
     display: block;
 
     position: relative;
+
     z-index: 2;
 }
 
@@ -231,7 +262,9 @@ section h2::after {
 
 .home-buttons {
     display: flex;
+
     gap: 12px;
+
     flex-wrap: wrap;
 }
 
@@ -249,6 +282,7 @@ section h2::after {
 
 .primary-btn {
     background: #38bdf8;
+
     color: #0f172a;
 }
 
@@ -261,12 +295,15 @@ section h2::after {
 
 .secondary-btn {
     border: 1px solid #38bdf8;
+
     color: #38bdf8;
 }
 
 .secondary-btn:hover {
     background: #38bdf8;
+
     color: #0f172a;
+
     transform: translateY(-3px);
 }
 
@@ -279,18 +316,23 @@ section h2::after {
 
 .about-content {
     max-width: 850px;
+
     margin: auto;
 }
 
 .about-content > p {
     color: #cbd5e1;
+
     font-size: 17px;
+
     line-height: 1.9;
+
     margin-bottom: 15px;
 }
 
 .about-info {
     display: flex;
+
     flex-wrap: wrap;
 
     justify-content: center;
@@ -316,21 +358,26 @@ section h2::after {
 
 .info-card:hover {
     transform: translateY(-5px);
+
     border-color: #38bdf8;
 }
 
 .info-card h3 {
     color: #38bdf8;
+
     margin-bottom: 10px;
 }
 
 .info-card p {
     color: #cbd5e1;
+
     font-size: 14px;
 }
 
 
-/* ==================== SKILLS ==================== */
+/* ========================================================= */
+/* ==================== SKILLS ============================== */
+/* ========================================================= */
 
 .skills-category {
     margin-bottom: 55px;
@@ -350,12 +397,28 @@ section h2::after {
     margin-bottom: 30px;
 }
 
+
+/*
+    IMPORTANT
+
+    5 cards:
+    
+    Row 1 = 3 cards
+    Row 2 = 2 cards centered
+*/
+
 .skills-container {
+    width: 100%;
+
+    max-width: 1000px;
+
+    margin: 0 auto;
+
     display: flex;
 
-    justify-content: center;
-
     flex-wrap: wrap;
+
+    justify-content: center;
 
     gap: 20px;
 }
@@ -363,7 +426,7 @@ section h2::after {
 .skill {
     width: 260px;
 
-    padding: 30px;
+    padding: 30px 20px;
 
     background: #1e293b;
 
@@ -410,19 +473,21 @@ section h2::after {
 }
 
 
-/* =========================================================
-   ==================== EDITING =============================
-   ========================================================= */
+/* ========================================================= */
+/* ==================== EDITING ============================= */
+/* ========================================================= */
 
 #editing {
     background: #0f172a;
 
     padding-top: 70px;
+
     padding-bottom: 70px;
 }
 
 .editing-description {
     width: 100%;
+
     max-width: 750px;
 
     margin: -20px auto 45px;
@@ -434,11 +499,9 @@ section h2::after {
     font-size: 16px;
 }
 
-
-/* Each editing work */
-
 .editing-work {
     width: 100%;
+
     max-width: 1100px;
 
     margin: 0 auto 55px;
@@ -449,9 +512,6 @@ section h2::after {
 .editing-work:last-child {
     margin-bottom: 0;
 }
-
-
-/* Video number / title */
 
 .editing-number {
     text-align: center;
@@ -468,10 +528,11 @@ section h2::after {
 }
 
 
-/* Original + Edited wrapper */
+/* Original + Edited */
 
 .editing-container {
     width: 100%;
+
     max-width: 1050px;
 
     margin: 0 auto;
@@ -485,11 +546,9 @@ section h2::after {
     align-items: start;
 }
 
-
-/* Video card */
-
 .video-card {
     width: 100%;
+
     min-width: 0;
 
     padding: 18px;
@@ -514,9 +573,6 @@ section h2::after {
         0 10px 25px rgba(0, 0, 0, 0.2);
 }
 
-
-/* Video title */
-
 .video-title {
     margin-bottom: 15px;
 }
@@ -539,12 +595,7 @@ section h2::after {
 
 .video-title h3 {
     font-size: 20px;
-
-    color: #f8fafc;
 }
-
-
-/* Video */
 
 .video-card video {
     width: 100%;
@@ -559,9 +610,6 @@ section h2::after {
 
     object-fit: contain;
 }
-
-
-/* Video description */
 
 .video-card > p {
     color: #94a3b8;
@@ -580,6 +628,7 @@ section h2::after {
     background: #111827;
 
     padding-top: 60px;
+
     padding-bottom: 60px;
 }
 
@@ -704,11 +753,11 @@ footer p {
 }
 
 
-/* =========================================================
-   ==================== TABLET ===============================
-   ========================================================= */
+/* ========================================================= */
+/* ==================== TABLET ============================== */
+/* ========================================================= */
 
-@media (max-width: 900px) {
+@media (max-width: 1000px) {
 
     nav {
         padding: 18px 5%;
@@ -745,12 +794,21 @@ footer p {
         height: 325px;
     }
 
+    /* Skills */
+
+    .skills-container {
+        gap: 15px;
+    }
+
+    .skill {
+        width: 240px;
+
+        padding: 25px 15px;
+    }
 
     /* Editing */
 
     .editing-container {
-        grid-template-columns: repeat(2, minmax(0, 1fr));
-
         gap: 18px;
     }
 
@@ -764,9 +822,9 @@ footer p {
 }
 
 
-/* =========================================================
-   ==================== MOBILE ===============================
-   ========================================================= */
+/* ========================================================= */
+/* ==================== MOBILE ============================== */
+/* ========================================================= */
 
 @media (max-width: 768px) {
 
@@ -924,10 +982,12 @@ footer p {
     }
 
 
-    /* ==================== SKILLS ==================== */
+    /* ===================================================== */
+    /* ==================== SKILLS ========================= */
+    /* ===================================================== */
 
     .skills-category {
-        margin-bottom: 40px;
+        margin-bottom: 45px;
     }
 
     .category-title {
@@ -936,26 +996,57 @@ footer p {
         margin-bottom: 22px;
     }
 
+
+    /*
+        IMPORTANT:
+
+        Phone ALLU same layout:
+
+        [ 1 ] [ 2 ] [ 3 ]
+
+             [ 4 ] [ 5 ]
+    */
+
     .skills-container {
-        flex-direction: column;
+        width: 100%;
 
-        align-items: center;
+        display: flex;
 
-        gap: 15px;
+        flex-wrap: wrap;
+
+        justify-content: center;
+
+        gap: 10px;
     }
 
     .skill {
-        width: 100%;
+        width: calc(33.333% - 7px);
 
-        max-width: 340px;
+        min-width: 0;
 
-        padding: 24px;
+        padding: 20px 7px;
+
+        border-radius: 11px;
+    }
+
+    .skill h3 {
+        font-size: 14px;
+
+        line-height: 1.3;
+
+        margin-bottom: 7px;
+    }
+
+    .skill p {
+        font-size: 9px;
+
+        line-height: 1.5;
     }
 
 
-    /* =====================================================
-       ==================== EDITING =========================
-       ===================================================== */
+    /* ===================================================== */
+    /* ==================== EDITING ========================= */
+    /* ===================================================== */
 
     #editing {
         padding-top: 50px;
@@ -964,8 +1055,6 @@ footer p {
     }
 
     .editing-description {
-        width: 100%;
-
         font-size: 14px;
 
         line-height: 1.7;
@@ -979,9 +1068,7 @@ footer p {
         margin-bottom: 18px;
     }
 
-
-    /* IMPORTANT:
-       Original + Edited stay SIDE BY SIDE on mobile */
+    /* Original + Edited side by side */
 
     .editing-container {
         width: 100%;
@@ -1013,8 +1100,6 @@ footer p {
         font-size: 8px;
 
         letter-spacing: 0.4px;
-
-        margin-bottom: 3px;
     }
 
     .video-title h3 {
@@ -1118,9 +1203,9 @@ footer p {
 }
 
 
-/* =========================================================
-   ==================== SMALL MOBILE ========================
-   ========================================================= */
+/* ========================================================= */
+/* ==================== SMALL MOBILE ======================== */
+/* ========================================================= */
 
 @media (max-width: 380px) {
 
@@ -1176,15 +1261,38 @@ footer p {
     }
 
 
-    /* Editing */
+    /* ==================== SMALL MOBILE SKILLS ==================== */
 
-    .editing-number {
-        font-size: 18px;
-
-        margin-bottom: 16px;
+    .skills-container {
+        gap: 7px;
     }
 
+    .skill {
+        width: calc(33.333% - 5px);
+
+        padding: 17px 5px;
+
+        border-radius: 9px;
+    }
+
+    .skill h3 {
+        font-size: 12px;
+
+        line-height: 1.25;
+    }
+
+    .skill p {
+        font-size: 8px;
+
+        line-height: 1.4;
+    }
+
+
+    /* ==================== SMALL MOBILE EDITING ==================== */
+
     .editing-container {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+
         gap: 7px;
     }
 
