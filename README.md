@@ -1,40 +1,44 @@
-# Portfolio
-Personal Portfolio Website
+# Vikas HM — Personal Portfolio
 
 Welcome to my personal portfolio website.
 
-I am a 3rd-year Diploma student in Computer Science and Engineering, interested in web development and continuously learning new technologies.
+I am a 3rd-year Diploma student in Computer Science and Engineering at SDM Polytechnic, Ujire. This portfolio showcases my education, skills, web development work, and video editing work.
 
-🌐 Live Website
+## 🌐 Live Website
 
-"View My Portfolio" (https://vikashalebeedu-source.github.io/Portfolio/)
+**[View My Portfolio](https://vikashalebeedu-source.github.io/Portfolio/)**
 
-🛠️ Technologies Used
+## 🛠️ Technologies Used
 
-- HTML
-- CSS
-- JavaScript
+* HTML
+* CSS
+* JavaScript
 
-📌 Sections
+## 📌 Sections
 
-- About Me
-- Education
-- Skills
-- Projects
-- Contact
+* Home
+* About Me
+* Skills
+* Education
+* Editing
+* Contact
 
-🚀 About This Project
+## 🎬 Editing Work
 
-I created this portfolio website to introduce myself, showcase my technical skills, and share the projects I have worked on.
+The portfolio includes video editing and color grading work created from raw footage shared through Instagram Color Grading Challenges. The original footage is transformed into my own edited version using tools such as DaVinci Resolve and CapCut.
 
-📚 Currently Learning
+## 🚀 About This Project
 
-- JavaScript
-- Web Development
-- Git & GitHub
+I created this portfolio to introduce myself, showcase my skills, and present my work in a simple and professional way.
 
-👨‍💻 Author
+## 📚 Currently Learning
 
-Vikas Halebeedu
+* JavaScript
+* Web Development
+* Git & GitHub
 
-GitHub: "@vikashalebeedu-source" (https://github.com/vikashalebeedu-source)
+## 👨‍💻 Author
+
+**Vikas HM**
+
+GitHub: **[@vikas-hm](https://github.com/vikas-hm)**
