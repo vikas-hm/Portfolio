@@ -4,6 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <meta name="description"
+          content="Vikas HM - Computer Science and Engineering Student, Web Developer and Video Editor.">
+
+    <meta name="author" content="Vikas HM">
+
     <title>Vikas HM | Portfolio</title>
 
     <link rel="stylesheet" href="style.css">
@@ -11,54 +16,75 @@
 
 <body>
 
-    <!-- Navigation -->
-<nav>
-    <a href="#home" class="logo">Vikas</a>
-
+    <!-- ==================== NAVIGATION ==================== -->
+    <nav>
+        <a href="#home" class="logo">Vikas</a>
 
         <ul>
             <li><a href="#home">Home</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#skills">Skills</a></li>
+            <li><a href="#editing">Editing</a></li>
             <li><a href="#education">Education</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
 
 
-    <!-- Home -->
+    <!-- ==================== HOME ==================== -->
     <section id="home" class="home">
 
-    <div class="home-content">
+        <div class="home-content">
 
-        <p class="hello">Hello, I'm</p>
+            <p class="hello">Hello, I'm</p>
 
-        <h1>Vikas HM</h1>
+            <h1>Vikas HM</h1>
 
-        <h2>CSE Student</h2>
+            <h2>CSE Student</h2>
 
-        <p class="home-description">
-            A Computer Science and Engineering student interested in
-            Web Development and Editing.
-        </p>
+            <p class="home-role">
+                Web Developer <span>|</span> Video Editor
+            </p>
 
-        <div class="home-buttons">
-            <a href="#about" class="btn primary-btn">About Me</a>
-            <a href="#contact" class="btn secondary-btn">Contact Me</a>
+            <p class="home-description">
+                A Computer Science and Engineering student interested in
+                Web Development and Creative Video Editing.
+            </p>
+
+            <div class="home-buttons">
+                <a href="#about" class="btn primary-btn">
+                    About Me
+                </a>
+
+                <a href="#contact" class="btn secondary-btn">
+                    Contact Me
+                </a>
+
+                <a href="Vikas_HM_CV.pdf"
+                   class="btn secondary-btn"
+                   download>
+                    Download CV
+                </a>
+            </div>
+
         </div>
 
-    </div>
 
-    <div class="home-photo">
-        <div class="photo-ring">
-            <img src="images/vikas.jpg" alt="Vikas HM">
+        <div class="home-photo">
+
+            <div class="photo-ring">
+
+                <img src="image/vikas.jpg"
+                     alt="Vikas HM">
+
+            </div>
+
         </div>
-    </div>
 
-</section>
+    </section>
 
 
-    <!-- About -->
+    <!-- ==================== ABOUT ==================== -->
     <section id="about">
 
         <h2>About Me</h2>
@@ -71,8 +97,9 @@
             </p>
 
             <p>
-                I am interested in Web Development and Editing. I enjoy learning
-                new skills and creating simple, clean and attractive websites.
+                I’m someone who enjoys turning ideas into simple, creative, and meaningful digital experiences. 
+                I’m always curious to learn, 
+                improve my skills, and explore new ways to build and create.
             </p>
 
             <div class="about-info">
@@ -99,26 +126,73 @@
     </section>
 
 
-    <!-- Skills -->
+    <!-- ==================== SKILLS ==================== -->
     <section id="skills">
 
         <h2>My Skills</h2>
 
-        <div class="skills-container">
 
-            <div class="skill">
-                <h3>HTML</h3>
-                <p>Building webpage structure</p>
+        <!-- Technical Skills -->
+        <div class="skills-category">
+
+            <h3 class="category-title">
+                Technical Skills
+            </h3>
+
+            <div class="skills-container">
+
+                <div class="skill">
+                    <h3>Programming</h3>
+                    <p>Python, JavaScript</p>
+                </div>
+
+                <div class="skill">
+                    <h3>Web Development</h3>
+                    <p>HTML, CSS, JavaScript</p>
+                </div>
+
+                <div class="skill">
+                    <h3>Database</h3>
+                    <p>MySQL</p>
+                </div>
+
+                <div class="skill">
+                    <h3>Tools</h3>
+                    <p>Git, GitHub, VS Code</p>
+                </div>
+
+                <div class="skill">
+                    <h3>Core CSE</h3>
+                    <p>
+                        Data Structures, DBMS,
+                        Computer Networks, Operating Systems
+                    </p>
+                </div>
+
             </div>
 
-            <div class="skill">
-                <h3>CSS</h3>
-                <p>Creating clean and responsive designs</p>
-            </div>
+        </div>
 
-            <div class="skill">
-                <h3>Editing</h3>
-                <p>Creative content editing</p>
+
+        <!-- Creative Skills -->
+        <div class="skills-category">
+
+            <h3 class="category-title">
+                Creative Skills
+            </h3>
+
+            <div class="skills-container">
+
+                <a href="#editing" class="skill skill-link">
+
+                    <h3>Video Editing</h3>
+
+                    <p>
+                        DaVinci Resolve, CapCut
+                    </p>
+
+                </a>
+
             </div>
 
         </div>
@@ -126,22 +200,259 @@
     </section>
 
 
-    <!-- Education -->
+    <!-- ==================== EDITING ==================== -->
+    <section id="editing">
+
+        <h2>My Editing</h2>
+
+        <p class="editing-description">
+            Here are some of my video editing and color grading works using raw footage 
+            from Instagram Color Grading Challenges. I edit and transform the original footage 
+            into my own final version using DaVinci Resolve and CapCut.
+        </p>
+
+
+        <!-- Editing Work 01 -->
+        <div class="editing-work">
+
+            <h3 class="editing-number">
+                SL.NO 01
+            </h3>
+
+            <div class="editing-container">
+
+                <div class="video-card">
+
+                    <div class="video-title">
+                        <span>Before</span>
+                        <h3>Original Video 01</h3>
+                    </div>
+
+                    <video controls preload="metadata">
+                        <source
+                            src="videos/Row-video01.mp4"
+                            type="video/mp4">
+                    </video>
+
+                    <p>
+                        Original footage before editing.
+                    </p>
+
+                </div>
+
+
+                <div class="video-card">
+
+                    <div class="video-title">
+                        <span>After</span>
+                        <h3>Edited Video 01</h3>
+                    </div>
+
+                    <video controls preload="metadata">
+                        <source
+                            src="videos/Edited-video01.mp4"
+                            type="video/mp4">
+                    </video>
+
+                    <p>
+                        Color grading, effects and creative editing.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- Editing Work 02 -->
+        <div class="editing-work">
+
+            <h3 class="editing-number">
+                SL.NO 02
+            </h3>
+
+            <div class="editing-container">
+
+                <div class="video-card">
+
+                    <div class="video-title">
+                        <span>Before</span>
+                        <h3>Original Video 02</h3>
+                    </div>
+
+                    <video controls preload="metadata">
+                        <source
+                            src="videos/Row-video02.mp4"
+                            type="video/mp4">
+                    </video>
+
+                    <p>
+                        Original footage before editing.
+                    </p>
+
+                </div>
+
+
+                <div class="video-card">
+
+                    <div class="video-title">
+                        <span>After</span>
+                        <h3>Edited Video 02</h3>
+                    </div>
+
+                    <video controls preload="metadata">
+                        <source
+                            src="videos/Edited-video02.mp4"
+                            type="video/mp4">
+                    </video>
+
+                    <p>
+                        Color grading, effects and creative editing.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- Editing Work 03 -->
+        <div class="editing-work">
+
+            <h3 class="editing-number">
+                SL.NO 03
+            </h3>
+
+            <div class="editing-container">
+
+                <div class="video-card">
+
+                    <div class="video-title">
+                        <span>Before</span>
+                        <h3>Original Video 03</h3>
+                    </div>
+
+                    <video controls preload="metadata">
+                        <source
+                            src="videos/Row-video03.mp4"
+                            type="video/mp4">
+                    </video>
+
+                    <p>
+                        Original footage before editing.
+                    </p>
+
+                </div>
+
+
+                <div class="video-card">
+
+                    <div class="video-title">
+                        <span>After</span>
+                        <h3>Edited Video 03</h3>
+                    </div>
+
+                    <video controls preload="metadata">
+                        <source
+                            src="videos/Edited-video03.mp4"
+                            type="video/mp4">
+                    </video>
+
+                    <p>
+                        Color grading, effects and creative editing.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+                <!-- Editing Work 04 -->
+        <div class="editing-work">
+
+            <h3 class="editing-number">
+                SL.NO 04
+            </h3>
+
+            <div class="editing-container">
+
+                <div class="video-card">
+
+                    <div class="video-title">
+                        <span>Before</span>
+                        <h3>Original Video 04</h3>
+                    </div>
+
+                    <video controls preload="metadata">
+                        <source
+                            src="videos/Row-video04.mp4"
+                            type="video/mp4">
+                    </video>
+
+                    <p>
+                        Original footage before editing.
+                    </p>
+
+                </div>
+
+
+                <div class="video-card">
+
+                    <div class="video-title">
+                        <span>After</span>
+                        <h3>Edited Video 03</h3>
+                    </div>
+
+                    <video controls preload="metadata">
+                        <source
+                            src="videos/Edited-video04.mp4"
+                            type="video/mp4">
+                    </video>
+
+                    <p>
+                        Color grading, effects and creative editing.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ==================== EDUCATION ==================== -->
     <section id="education">
 
         <h2>Education</h2>
 
         <div class="education-card">
 
-            <h3>Diploma in Computer Science & Engineering</h3>
+            <h3>
+                Diploma in Computer Science & Engineering
+            </h3>
 
             <p class="college-name">
                 SDM Polytechnic, Ujire
             </p>
 
             <div class="education-details">
-                <p><strong>Current:</strong> 3rd Year, 5th Semester</p>
-                <p><strong>Graduation Year:</strong> 2027</p>
+
+                <p>
+                    <strong>Current:</strong>
+                    3rd Year, 5th Semester
+                </p>
+
+                <p>
+                    <strong>Graduation Year:</strong>
+                    2027
+                </p>
+
             </div>
 
         </div>
@@ -149,17 +460,20 @@
     </section>
 
 
-    <!-- Contact -->
+    <!-- ==================== CONTACT ==================== -->
     <section id="contact">
 
         <h2>Contact Me</h2>
 
         <p class="contact-text">
-            Feel free to contact me for any queries or opportunities.
+            If you like my work, feel free to contact me
+            for any opportunities.
         </p>
+
 
         <div class="contact-container">
 
+            <!-- Email -->
             <div class="contact-card">
 
                 <h3>Email</h3>
@@ -170,11 +484,36 @@
 
             </div>
 
+
+            <!-- GitHub -->
             <div class="contact-card">
+
                 <h3>GitHub</h3>
-                <a href="https://github.com/vikashalebeedu-source" target="_blank">
-                    github.com/vikashalebeedu-source
+
+                <a href="https://github.com/vikas-hm"
+                   target="_blank"
+                   rel="noopener noreferrer">
+
+                    github.com/vikas-hm
+
                 </a>
+
+            </div>
+
+
+            <!-- Instagram -->
+            <div class="contact-card">
+
+                <h3>Instagram</h3>
+
+                <a href="https://www.instagram.com/mkv_creations_/"
+                   target="_blank"
+                   rel="noopener noreferrer">
+
+                    @mkv_creations_
+
+                </a>
+
             </div>
 
         </div>
@@ -182,12 +521,17 @@
     </section>
 
 
-    <!-- Footer -->
+    <!-- ==================== FOOTER ==================== -->
     <footer>
-        <p>© 2026 Vikas HM. All Rights Reserved.</p>
+
+        <p>
+            © 2026 Vikas HM. All Rights Reserved.
+        </p>
+
     </footer>
 
 
+    <!-- JavaScript -->
     <script src="script.js"></script>
 
 </body>
